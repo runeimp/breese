@@ -9,6 +9,7 @@ APP_NAME := "Breese Morse Code"
 
 # Run the breese command line app
 run +args='':
+	just _term-wipe
 	go run cmd/breese/main.go
 
 
